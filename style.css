@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('images/background.jpg'); /* Добавлено это свойство */
-    background-size: cover; /* Это гарантирует, что изображение будет покрывать весь экран, сохраняя свои пропорции */
-    background-repeat: no-repeat; /* Это гарантирует, что изображение не будет повторяться */
-    background-position: center center; /* Центрирование изображения */
+    background-image: url('images/background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -28,8 +28,16 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid aquamarine; 
 }
 
+
 form div {
-    margin-top: 20px; /* Или другое значение, которое вам подходит */
+    margin-top: 20px;
+}
+
+textarea#message {
+    resize: none;
+    width: 100%;
+    max-width: 100%;
 }
